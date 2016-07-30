@@ -22891,5 +22891,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.behaviors.Flash.prototype.cnds.IsFlashing,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
-	cr.behaviors.Flash.prototype.acts.Flash
+	cr.behaviors.Flash.prototype.acts.Flash,
+	cr.plugins_.Sprite.prototype.cnds.OnAnyAnimFinished,
+	cr.behaviors.Bullet.prototype.acts.Bounce
 ];};
